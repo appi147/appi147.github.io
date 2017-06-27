@@ -17,5 +17,11 @@ nav.hovtop li:hover {
 }
 /*background image*/
 body {
-	background: url(../img/bg.jpg) no-repeat left;
+	width: 100%;
+}
+.bgme {
+	background-image: url(../img/bg.jpg);
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
