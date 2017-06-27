@@ -3,24 +3,21 @@ background-color: none;
 }
 
 table.ho1 td:hover {
-background-color: #494949;
--moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
-  -moz-border-radius-bottomright: 10px;
-  -moz-border-radius-bottomleft: 10px;
-   -webkit-border-radius: 10px 10px 10px 10px;
-  border-radius: 10px 10px 10px 10px;
+  background-color: #494949;
+ /* border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-bottom-left-radius: 20%;*/
+  /*-webkit-border-radius: 10px 10px 10px 10px;*/
+  border-width: 2px 4px;
+  border-radius: 40px;
 }
 nav.honav li{
 background-color: none;
 }
 
 nav.honav li:hover {
-background-color: #494949;
-  -moz-border-radius-topleft: 10px;
-  -moz-border-radius-topright: 10px;
-  -moz-border-radius-bottomright: 0px;
-  -moz-border-radius-bottomleft: 0px;
-  -webkit-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
+  background-color: #494949;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
 }
