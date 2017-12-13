@@ -1,7 +1,6 @@
 html {
   font-size: 10px;
-  background-image: url(../image/concert.jpg);
-  background-size: block;
+  background-image: url(concert.jpg);
   background-repeat: no-repeat;
 }
 body,html {
