@@ -86,9 +86,9 @@
         const seconds = now.getSeconds();
         const minutes = now.getMinutes();
         const hours = now.getHours();
-        const secondsDegrees = seconds * 6;
-        const minutesDegrees = minutes * 6;
-        const hoursDegrees = (hours * 30) % 360;
+        const secondsDegrees = seconds * 6 + 90;
+        const minutesDegrees = minutes * 6 +90;
+        const hoursDegrees = (hours * 30 + 90) % 360;
         if(secondsDegrees == 0) {
             secondHand.style.transition = `all 0s`;
         } else {
